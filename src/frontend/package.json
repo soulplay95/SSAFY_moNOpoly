@@ -1,0 +1,79 @@
+{
+  "name": "bootstrap-vue-argon-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BootstrapVue Argon Dashboard",
+  "author": "Creative Tim - https://www.creative-tim.com/",
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "npm run serve"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^5.13.1",
+    "@tiptap/extension-image": "^2.0.0-beta.14",
+    "@tiptap/extension-table": "^2.0.0-beta.25",
+    "@tiptap/extension-table-cell": "^2.0.0-beta.13",
+    "@tiptap/extension-table-header": "^2.0.0-beta.15",
+    "@tiptap/extension-table-row": "^2.0.0-beta.13",
+    "@tiptap/extension-underline": "^2.0.0-beta.16",
+    "@tiptap/starter-kit": "^2.0.0-beta.82",
+    "@tiptap/vue-2": "^2.0.0-beta.39",
+    "axios": "^0.21.1",
+    "bootstrap": "4.3.1",
+    "bootstrap-vue": "^2.5.0",
+    "chart.js": "^2.9.3",
+    "d3": "^5.7.0",
+    "datamaps": "^0.5.9",
+    "date-fns": "^1.30.1",
+    "dropzone": "^5.5.1",
+    "element-ui": "2.4.11",
+    "es6-promise": "^4.1.1",
+    "firebase": "^8.9.1",
+    "firebase-tools": "^9.16.0",
+    "flatpickr": "^4.5.7",
+    "fuse.js": "^3.2.0",
+    "google-maps": "^3.2.1",
+    "moveable": "^0.26.0",
+    "nouislider": "^12.1.0",
+    "perfect-scrollbar": "^1.3.0",
+    "quill": "^1.3.6",
+    "sweetalert2": "^9.5.4",
+    "tiptap": "^1.32.2",
+    "tiptap-extensions": "^1.35.2",
+    "vee-validate": "^3.2.1",
+    "vue": "^2.6.11",
+    "vue-chartjs": "^3.5.0",
+    "vue-clipboard2": "^0.3.0",
+    "vue-drag-resize": "^1.5.4",
+    "vue-flatpickr-component": "^8.1.2",
+    "vue-grid-layout": "^2.3.12",
+    "vue-kakao-sdk": "0.0.4",
+    "vue-router": "^3.0.6",
+    "vue2-timepicker": "^1.1.6",
+    "vue2-transitions": "^0.2.3",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-plugin-component": "^1.1.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
